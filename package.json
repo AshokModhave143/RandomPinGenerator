@@ -1,0 +1,24 @@
+{
+  "name": "randompingenrator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers babel-register",
+    "start": "node ./test/test.js"
+  },
+  "author": "Ashok Modhave",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.26.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "mocha": "^5.2.0"
+  }
+}
